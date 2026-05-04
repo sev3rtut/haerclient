@@ -76,7 +76,7 @@
             -webkit-backdrop-filter: blur(20px);
             border: 1px solid rgba(0, 242, 254, 0.2);
             border-radius: 28px;
-            padding: 55px 40px 45px;
+            padding: 40px 40px 45px;
             text-align: center;
             box-shadow: 
                 0 30px 60px rgba(0, 0, 0, 0.6),
@@ -98,23 +98,18 @@
                 0 0 50px rgba(0, 242, 254, 0.25);
         }
 
-        /* Маленький индикатор версии над заголовком */
-        .badge {
-            display: inline-block;
-            font-size: 11px;
-            font-weight: 800;
-            color: #00f2fe;
-            background: rgba(0, 242, 254, 0.08);
-            border: 1px solid rgba(0, 242, 254, 0.2);
-            padding: 5px 14px;
-            border-radius: 30px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 18px;
-            box-shadow: 0 0 10px rgba(0, 242, 254, 0.1);
+        /* Стили для добавленной картинки popa.png */
+        .card-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(0, 242, 254, 0.3);
+            box-shadow: 0 0 25px rgba(0, 242, 254, 0.2);
         }
 
-        /* Неоновый градиентный заголовок */
+        /* Неоновый градиентный заголовок haer */
         h1 {
             font-size: 44px;
             font-weight: 900;
@@ -196,10 +191,12 @@
     <div class="grid-bg"></div>
 
     <div class="card">
-        <h1>haerclient</h1>
-        <p>скачать можна ниже :з</p>
+        <img src="popa/popa.png" alt="haer logo" class="card-img">
         
-        <a href="haer/popa/client.rar" class="download-btn" download>Скачать софт</a>
+        <h1>haer</h1>
+        <p>скачать можно ниже :з</p>
+        
+        <a href="popa/client.rar" class="download-btn" download>Скачать haer</a>
     </div>
 
 </body>
